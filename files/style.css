@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, Times, serif;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li {
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.1rem;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 1.65rem;
+}
+
+#add, #button {
+  width: 100px;
+  height: 35px;
+  top: 100px;
+  left: 180px;
+  position: absolute;
+}
+
+#button {
+  top: 140px;
+  position: absolute;
+}
+
+input {
+  margin: 3px;
+}
+
+#xlsDoc {
+  margin-bottom: 50px;
+} 
+
+@page  
+{ 
+    margin: 14mm 9mm 0mm 9mm;  
+} 
